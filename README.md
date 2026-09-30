@@ -1,13 +1,12 @@
-
- # SQL Projection Assignment
+# SQL Projection Assignment
 
 ## 📌 Project Overview
 
-This repository contains my  SQL Projection Assignment completed as part of my SQL practice.
+This repository contains my SQL Projection Assignment completed as part of my SQL practice.
 
 The assignment focuses on using the `SELECT` statement to retrieve specific columns from database tables instead of displaying all columns.
 
-The queries are performed mainly on the standard EMP  and DEPT tables.
+The queries are performed mainly on the standard EMP and DEPT tables.
 
 
 
@@ -44,7 +43,6 @@ The `DEPT` table is used to retrieve department information such as:
 The assignment retrieves department names and their locations.
 
 
-
 ## 💻 SQL Concepts Practiced
 
 The assignment covers:
@@ -63,32 +61,31 @@ The assignment covers:
 * Identifying SQL errors
 
 
-
 ## 📝 Queries Practiced
 
 ### 1. Display All Employee Details
 
-sql
+```sql
 SELECT * FROM EMP;
-
+```
 
 ### 2. Display Employee Names
 
-'''sql
+```sql
 SELECT ENAME FROM EMP;
-'''
+```
 
 ### 3. Display Employee Names and Salaries
 
-'''sql
+```sql
 SELECT ENAME, SAL FROM EMP;
-'''
+```
 
 ### 4. Display Employee Names and Commission
 
-'''sql
+```sql
 SELECT ENAME, COMM FROM EMP;
-'''
+```
 
 ### 5. Display Employee Number and Department Number
 
@@ -128,7 +125,7 @@ SELECT DNAME, LOC FROM DEPT;
 
 These queries and their Oracle SQL outputs are included in the provided assignment.
 
----
+
 
 ## ⚠️ SQL Error Practice
 
@@ -180,12 +177,13 @@ The assignment also retrieves department information for:
 * SALES — CHICAGO
 * OPERATIONS — BOSTON
 
-
+---
 
 ## 🛠️ Technologies Used
 
 * **Oracle SQL**
 * **SQL*Plus / Oracle SQL environment**
+
 
 
 
@@ -200,7 +198,6 @@ SQL-Projection-Assignment/
 
 
 
-
 ## 🚀 How to Run
 
 1. Open an Oracle SQL environment such as SQL*Plus.
@@ -208,7 +205,6 @@ SQL-Projection-Assignment/
 3. Make sure the `EMP` and `DEPT` tables are available.
 4. Execute the SQL queries from the assignment.
 5. View the query results in the Oracle SQL output.
-
 
 
 ## 📚 Learning Outcome
@@ -226,8 +222,18 @@ Mohammad Saziya
 GitHub: `mdsaziya398`
 
 
-
 ## ⭐ Repository Purpose
 
 This repository is maintained as part of my SQL learning and practice journey, documenting SQL queries, assignments, and hands-on database exercises.
+
+
+
+
+
+
+
+
+
+
+
 
